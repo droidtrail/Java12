@@ -35,7 +35,7 @@ public class Wrappers {
 		System.out.println(d);
 		
 		Character c = '#'; //char
-		System.out.println(c.toString());
+		//System.out.println(c.toString());
 		System.out.println(c + "...");
 		
 	}
