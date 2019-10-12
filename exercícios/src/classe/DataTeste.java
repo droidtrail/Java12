@@ -2,8 +2,6 @@ package classe;
 
 import java.util.Scanner;
 
-import controle.Continue;
-
 public class DataTeste {
 
 	public static void main(String[] args) {
