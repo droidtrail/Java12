@@ -28,7 +28,8 @@ public class DataTeste {
 				if (d1.ano <= 1900 || d1.ano >= 2019) {
 					System.out.println("Ano inválido. Digite valores entre 1900 e 2019");
 				} else {
-					System.out.printf("A data digitada foi: %d/%d/%d", d1.dia, d1.mes, d1.ano);
+					//System.out.printf("A data digitada foi: %d/%d/%d", d1.dia, d1.mes, d1.ano);
+					System.out.println("A data digitada foi: " + d1.obterDataFormatada());
 				}
 
 			}
