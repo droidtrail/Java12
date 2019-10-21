@@ -4,11 +4,12 @@ public class Produto {
 
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto = 0.25;
 	
 	//Método Construtor da classe com parâmetro
-	Produto(String nomeInicial){
+	Produto(String nomeInicial, double precoInicial){
 		nome = nomeInicial;
+		preco = precoInicial;
 	}
 	
 	//Método Construtor da classe sem parâmetro

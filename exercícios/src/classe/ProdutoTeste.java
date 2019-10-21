@@ -5,15 +5,14 @@ public class ProdutoTeste {
 	public static void main(String[] args) {
 
 		//Utilizando Método Construtor com passagem de parâmetro
-		Produto p1 = new Produto("Produto 1 -> Notebook.");
+		Produto p1 = new Produto("Produto 1 -> Notebook.", 4356.89);
 		//p1.nome = "Produto 1 -> Notebook.";
-		p1.preco = 4356.89;
-		p1.desconto = 0.25;
-
+		//p1.preco = 4356.89;
+	
 		//Utilizando Método Construtor sem passagem de parâmetro
 		var p2 = new Produto();
+		p2.nome = "Produto 2 -> Celular.";
 		p2.preco = 12.56;
-		p2.desconto = 0.29;
 
 		System.out.println(p1.nome);
 		System.out.println(p2.nome);
